@@ -1,0 +1,5 @@
+out
+out/
+[Bb]uild/
+.vs/
+.vscode/
