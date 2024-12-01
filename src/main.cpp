@@ -255,7 +255,7 @@ void mostrarMenu(int opcion)
 			Torus newtorus{2.0, 0.5, 100, 100};
 			newtorus.spawpoint = CreateRandomSpawpoint();
 			newtorus.Anglerotacion = {0.0, 0.0, 0.0};
-			newtorus.color = {1.0, 1.0, 0.0};
+			newtorus.color = {1.0, 1.0, 1.0};
 			newtorus.eje = 0;
 			newtorus.ID = glGenLists(1);
 			std::cout << "Creating new torus ID: " << newtorus.ID << std::endl;
